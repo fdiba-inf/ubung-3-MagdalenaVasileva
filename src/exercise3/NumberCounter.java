@@ -23,7 +23,6 @@ if (number > 0) {
 
 sum = sum + number;
 
-System.out.print("Enter number: ");
 number = input.nextInt();
 }
 double average = sum / (positiveCount + negativeCount);
