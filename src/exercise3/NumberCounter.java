@@ -14,7 +14,7 @@ double sum = 0;
 System.out.print("Enter number: ");
 int number = input.nextInt();
 
-while (number !=0) {
+while (number != 0) {
 if (number > 0) {
   positiveCount++;
 } else {
@@ -23,8 +23,10 @@ if (number > 0) {
 
 sum = sum + number;
 
+System.out.print("Enter number: ");
 number = input.nextInt();
 }
+
 double average = sum / (positiveCount + negativeCount);
 
 System.out.println("Positive numbers: " + positiveCount);
