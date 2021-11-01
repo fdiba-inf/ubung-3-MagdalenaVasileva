@@ -31,7 +31,7 @@ double average = sum / (positiveCount + negativeCount);
 
 System.out.println("Positive numbers: " + positiveCount);
 System.out.println("Negative numbers: " + negativeCount);
-System.out.println(" Sum: " + sum);
+System.out.println("Sum: " + sum);
 System.out.println("Average: " + average);
 }
 
