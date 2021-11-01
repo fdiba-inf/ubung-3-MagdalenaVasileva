@@ -21,7 +21,7 @@ public class Triangle {
        double area = Math.sqrt(s * (s - a) * (s - b) * (s -c));
        System.out.println("Area :" + area);
 
-       if (a == b && b == c){
+       if (a == b && b == c) {
          System.out.println("Triangle: equilateral");
        } else if (a == b || a == c || b == c) {
          System.out.println("Triangle: isosceles");
