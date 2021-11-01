@@ -17,7 +17,7 @@ public class Triangle {
      if (correct) {
        double s = (a + b + c) / 2;
        double area = Math.sqrt(s * (s - a) * (s - b) * (s -c));
-       System.out.println("Area :" + area);
+       System.out.println("Area: " + area);
 
        if (a == b && b == c) {
          System.out.println("Triangle: equilateral");
