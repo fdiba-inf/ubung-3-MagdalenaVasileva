@@ -8,7 +8,6 @@ public class Triangle {
    Scanner input = new Scanner(System.in);
 
    double a, b, c;
-   
    do {
      a = input.nextDouble();
      b = input.nextDouble();
